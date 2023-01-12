@@ -2,7 +2,7 @@ package Mercator;
 
 import java.util.Scanner;
 
-public class tp2 {
+public class tp3 {
 
     public static void main(String[] args) {
         Scanner keyboardInput = new Scanner(System.in);
