@@ -8,6 +8,10 @@ public class tp3 {
         Scanner keyboardInput = new Scanner(System.in);
         System.out.print("Tapez le chiffre correspondant a un jour :");
         int num1 = keyboardInput.nextInt();
+
+        if(num1 < 0 && num1 > 7){
+
+        }
         switch(num1) {
             case 1:
                 System.out.println("Lundi");
@@ -35,4 +39,5 @@ public class tp3 {
         }
 
     }
+
 }
